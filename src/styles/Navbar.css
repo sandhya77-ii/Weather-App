@@ -1,0 +1,45 @@
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #3498db; /* Blue background */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
+  }
+  
+  /* Navigation Links */
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+    color: #2980b9; /* Darker blue */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

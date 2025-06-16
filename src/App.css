@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+select {
+  padding: 5px;
+  margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+.footer-container {
+    text-align: center;
+    padding: 15px;
+    color: #2c3e50;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Arrange content in a single line with more spacing */
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Increased spacing */
+  }
+  
+  /* Footer Links */
+  .footer-content a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 20px; /* Increased margin for more spacing */
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  .social-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-links img {
+    width: 30px; /* Adjust size */
+    height: 30px;
+    transition: 0.3s;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .footer-content {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

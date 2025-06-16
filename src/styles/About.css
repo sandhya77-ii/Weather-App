@@ -1,0 +1,40 @@
+.about-container {
+    text-align: center;
+    padding: 40px 20px; /* Increased padding to push boxes lower */
+    background-color: #f4faff;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    color: #2980b9;
+  }
+  
+  /* Grid Layout: Two boxes on top, two below */
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Increased gap to lower boxes */
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .box {
+    background-color: rgba(230, 230, 250, 0.9); /* Dim lavender */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 255, 0.1);
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 600px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+.contact-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: transparent; /* Keeps background image visible */
+    color: #2c3e50;
+  }
+  
+  /* Transparent Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Align to the left */
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 255, 0.1);
+  }
+  
+  
+  
+  /* Labels & Inputs */
+  .contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #34495e;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Slight transparency */
+    color: #2c3e50;
+  }
+  
+  /* Submit Button */
+  .contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2980b9;
+  }
+  
